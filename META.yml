@@ -1,0 +1,31 @@
+---
+abstract: 'Abstract API support for Amazon DynamoDB'
+author:
+  - 'Tom Molesworth <cpan@entitymodel.com>'
+build_requires:
+  Test::CheckDeps: 0.010
+  Test::Fatal: 0.010
+  Test::More: 0.98
+  perl: 5.010001
+configure_requires:
+  ExtUtils::MakeMaker: 6.48
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.001, CPAN::Meta::Converter version 2.132830'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WebService-Amazon-DynamoDB
+requires:
+  Future: 0.15
+  HTTP::Request: 0
+  JSON::XS: 0
+  Mixin::Event::Dispatch: 1.004
+  Module::Load: 0
+  WebService::Amazon::Signature: 0
+  curry: 0
+  parent: 0
+resources:
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=WebService-Amazon-DynamoDB
+  homepage: http://search.cpan.org/dist/WebService-Amazon-DynamoDB/
+version: 0.001

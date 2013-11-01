@@ -1,0 +1,51 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 296ee4448ebead000a5ef78793f964d59297bcc2 Changes
+SHA1 27a0380277c4b16d45b92a82a17520860d130020 INSTALL
+SHA1 aeb48d9f22d31def6e02d02d35dd602604e84a36 LICENSE
+SHA1 d67901490bfcc026b63f8cb6eb693dee342c3172 MANIFEST
+SHA1 69fd640669e83ac10dbb7a54547425a8eb83a5bf META.json
+SHA1 87ed2b67cb6dadfad030327ccfa723f81843072c META.yml
+SHA1 ceacbf24ffc97f75c37382a78501910dd15ca7a4 Makefile.PL
+SHA1 7721fb22caf2e81da58774100d4e0c4cebe5915e README
+SHA1 d5f64a843636eed485894ec34da8116b6bc0596c cpanfile
+SHA1 74469b4a69b6ac4d17cd13e8066f3e7af1b12b09 dist.ini
+SHA1 b907c798ce5ab400f189d3ffa0eab54c8b861f00 examples/async.pl
+SHA1 039420934b3322c95d5377533c3911c3172a5534 examples/lwp.pl
+SHA1 60349b1d74870dc798f91ed411ec44812add9cdb examples/mojo.pl
+SHA1 dd29e07e12bd43f768c9b5c092893fc5cfe2ef59 lib/WebService/Amazon/DynamoDB.pm
+SHA1 cc2088a9edc59ab90bfd89735f7ff251ac5a1436 lib/WebService/Amazon/DynamoDB/20120810.pm
+SHA1 2edce52c6d34e1313ec0543e1c0a7fe65f59dbda lib/WebService/Amazon/DynamoDB/LWP.pm
+SHA1 b034f24b9bf48719a4da4f1ab164fe31c6f825b5 lib/WebService/Amazon/DynamoDB/MojoUA.pm
+SHA1 8f87aba9393aff366b20a6f9ce81c74bb9a2afc6 lib/WebService/Amazon/DynamoDB/NaHTTP.pm
+SHA1 84cd2ca0ecdff82464bf61c9d18eef77c3ab3649 t/00-check-deps.t
+SHA1 198d1665317c3d91e3bb81f0a3b8dad8d4d66f20 xt/release/common_spelling.t
+SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
+SHA1 4146b75714ac972231d12d4fb93e764817a5eb0b xt/release/pod-linkcheck.t
+SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
+SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSc2OQAAoJEFKElMNpjtyDIqMH+gKWvSXP+b8u12ssK0jv126j
+Nn4EGQmm0zsV56ZfKnHWKovQzguQK05OTpjqdROuE2D1AWWgNEGis1IC023gIXea
+waFGQ3T00s/cpMichszD/IdM2lRFv0D3lDTip5zTShQ0KRlex4FFpfMZqasFIzmq
+sZkxaFzsUFLsKC24e4Q0MqWJLKgBujiME/rxfxfBRde1WadONr9XgzdiX+mTqEVv
+7CmV95C2A7OHZsP0Bdnv7+0CavvrRh1vZqZBE9SE8KOyS+43nT2PXuFbLvjxA1SD
+fSgxd+qE1PhNQrhAdWqs7V8ZOAZSifUHx9tw6uefi85Bnmdk1SrXCimwmN7lyPY=
+=6/2g
+-----END PGP SIGNATURE-----
